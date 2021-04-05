@@ -16,12 +16,13 @@
         <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
         <header class="masthead mb-auto">
             <div class="inner">
-            <h3 class="masthead-brand">Capa</h3>
-            <nav class="nav nav-masthead justify-content-center">
-                <a class="nav-link active" href="#">Home</a>
-                <a class="nav-link" href="#">Features</a>
-                <a class="nav-link" href="#">Contatos</a>
-            </nav>
+                <nav class="nav nav-masthead justify-content-center">
+                    <figure>
+                        <img src="./imgs/logo.png" alt="">
+                    </figure>
+                    <h3 class="masthead-brand">Compra Certa</h3>
+                    <a class="nav-link active btn btn-lg btn-secondary" href="/view/pages/funcionário/login.html">Área do Funcionário</a>
+                </nav>
             </div>
         </header>
 
@@ -29,7 +30,9 @@
             <h1 class="cover-heading">Faça compras no seu mercado favorito com a comidade de casa</h1>
             <p class="lead">Capas são templates de uma única página para construir home pages simples e lindas. Baixe, edite o texto e adicione seu próprio background fullscreen, de maneira que tudo fique com a sua cara.</p>
             <p class="lead">
-            <a href="#" class="btn btn-lg btn-secondary">Saiba mais</a>
+            <a href="/view/pages/cliente/cadastro.html" class="btn btn-lg btn-secondary">Cadastre-se e comece a comprar</a>
+            <a class="nav-link active" href="/view/pages/cliente/login.html">Já possui cadastro? <b>Faça login</b></a>
+            <a href="/view/pages/home.html" class="btn btn-lg btn-secondary">Acesse aqui nossos produtos</a>
             </p>
         </main>
 
@@ -41,35 +44,5 @@
         </div>
 
         <script src="/view/bootstrap/js/bootstrap.min.js"></script>
-    </body>
-    <body>
-        <header>
-            <nav>
-                <figure>
-                    <img src="./imgs/logo.png" alt="">
-                </figure>
-            </nav>
-        </header>
-        
-        <main>
-            <div id="welcome-message">
-                <h1>Faça compras no seu mercado favorito com a comidade de casa</h1>
-            </div>
-            <div id="action-buttons">
-                <button id="signup">
-                    <a href="./pages/cliente/cadastro.php">Cadastre-se e comece a comprar</a>
-                </button>
-    
-                <button id="signin">
-                    <a href="./pages/cliente/login.php">Já possui cadastro? <b>Faça login</b></a>
-                </button>
-            </div>
-        </main>
-
-        <footer>
-            <button id="home">
-                <a href="./pages/home.php">Acesse aqui nossos produtos</a>
-            </button>
-        </footer>
     </body>
 </html>
