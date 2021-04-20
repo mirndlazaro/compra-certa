@@ -7,6 +7,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="stylesheet" href="/view/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
     </head>
     <body class="text-center">
         <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
@@ -14,26 +17,25 @@
             <div class="inner">
                 <nav class="nav nav-masthead justify-content-center">
                     <figure>
-                        <img src="./imgs/logo.png" alt="">
+                        <img class="logo" src="./imgs/logo.png" alt="" width="100">
                     </figure>
-                    <h3 class="masthead-brand">Compra Certa</h3>
-                    <a class="nav-link active btn btn-lg btn-secondary" href="/view/pages/funcionário/login.html">Área do Funcionário</a>
+                    <a id="area-funcionario" class="nav-link active btn btn-lg btn-secondary" href="/view/pages/funcionário/login.html">Área do Funcionário</a>
                 </nav>
             </div>
         </header>
 
         <main role="main" class="inner cover">
             <h1 class="cover-heading">Faça compras no seu mercado favorito com a comidade de casa</h1>
-            <p class="lead">Capas são templates de uma única página para construir home pages simples e lindas. Baixe, edite o texto e adicione seu próprio background fullscreen, de maneira que tudo fique com a sua cara.</p>
+            <p class="lead">Além das compras, levamos conforto e segurança para dentro da sua casa.</p>
             <p class="lead">
-                <a href="/view/pages/cliente/cadastro.html" class="btn btn-lg btn-secondary">Cadastre-se e comece a comprar</a>
+                <a href="/view/pages/cliente/cadastro.html" id="btn-cadastro" class="btn btn-lg btn-secondary">Cadastre-se e comece a comprar</a>
                 <a class="nav-link active" href="/view/pages/cliente/login.html">Já possui cadastro? <b>Faça login</b></a>
             </p>
         </main>
 
         <footer class="mastfoot mt-auto">
             <div class="inner">
-                <a href="/view/pages/home.html" class="btn btn-lg btn-secondary">Acesse aqui nossos produtos</a>
+                <a id="btn-dashboard" href="/view/pages/home.html" class="btn btn-lg btn-secondary">Acesse aqui nossos produtos</a>
             </div>
         </footer>
         </div>
