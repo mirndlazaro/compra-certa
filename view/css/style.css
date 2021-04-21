@@ -15,6 +15,8 @@
 
 a#area-funcionario {
 
+    float: right;
+
     background-color: var(--var-purple-color);
 
     padding-bottom: -10px;
@@ -23,7 +25,7 @@ a#area-funcionario {
 a#btn-cadastro {
     color: var(--text-brown-color);
     background-color: var(--var-beige-color);
-
+    margin-top: 50px;
     font-weight: 500;
 }
 
@@ -31,4 +33,25 @@ a#btn-dashboard {
     background-color: var(--var-red-color);
 
     border-radius: 20px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+main, footer {
+    text-align: left;
+
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 16vh;
+}
+
+footer {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 100px;
 }
