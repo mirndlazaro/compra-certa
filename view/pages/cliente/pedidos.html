@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="/view/bootstrap/css/bootstrap.min.css">
+        
+        <title>Compra Certa</title>
+    </head>
+    <body>
+        <header>
+          <nav class="navbar navbar-light" style="background-color: #F2B680">
+            <div class="container-fluid">
+              <a class="navbar-brand">Compra Certa</a>
+              <form class="d-flex">
+                <a href="#">
+                  <button class="btn btn-primary" type="submit">Home</button>
+                </a>
+                <a href="./pedidos.html">
+                  <button class="btn btn-success" type="submit">Seus Pedidos</button>
+                </a>
+                <a href="./editarDados.html">
+                    <button class="btn btn-secondary" type="submit">Perfil</button>
+                </a>
+              </form>
+            </div>
+          </nav>
+        </header>
+
+        <main>
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Ordem</th>
+                    <th scope="col">Cliente</th>
+                    <th scope="col">Produtos/Quantidade</th>
+                    <th>Endereço de entrega</th>
+                    <th>Fase</th>
+                    <th>Status</th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Lazaro</td>
+                    <td>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</td>
+                    <td>Rodovia Presidente Dutra Km 306 S/N - Centro, Resende - RJ, Cep. 27534-970</td>
+                    <td>Entrega</td>
+                    <td>
+                        <button type="button" class="btn btn-warning">Em andamento</button>
+                    </td>
+                    <td>
+                        <a href="./rastreios.html">
+                            <button type="button" class="btn btn-info">
+                                Rastrear entrega
+                            </button>
+                        </a>
+                    </td>
+                  </tr>
+                </tbody>
+            </table>
+        </main>
+    </body>
+</html>
