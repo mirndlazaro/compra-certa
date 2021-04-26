@@ -1,36 +1,64 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        <title>Área do funcionário</title>
 
-        <link rel="stylesheet" href="/view/bootstrap/css/bootstrap.min.css">
-    </head>
-    <body class="text-center">
-        <main class="form-signin">
-            <form>
-                <img class="mb-4" src="../assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
-                <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
-            
-                <div class="form-floating">
-                    <input require type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                    <label for="floatingInput">Email address</label>
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Compra certa</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+  
+  <!-- Custom styles for this template -->
+  <link href="../css/coming-soon.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Back Overlay -->
+  <div class="overlay" style="background-color: rgb(255, 255, 255);"></div>
+
+  <div class="masthead">
+    <div class="masthead-bg" style="background-color: rgb(206, 133, 60);"></div>
+    <div class="container h-100">
+      <div class="row h-100">
+        <div class="col-12 my-auto">
+          <div class="masthead-content text-white py-5 py-md-0">
+            <h1 style="size:10px;">Seja muito bem vindo!</h1>
+            <p>Informe seu Login e Senha</p>
+            <form name="login-form" method="POST" action="">
+              <div class="input-group input-group-newsletter">
+                <input type="email" class="form-control" placeholder="Login" aria-label="Login" aria-describedby="submit-button">
+              </div>
+              <div class="input-group input-group-newsletter">
+                <input type="password" class="form-control" placeholder="Senha" aria-label="Senha" aria-describedby="submit-button">
+                <div class="input-group-append">
+                  <button style="background-color: rgb(111, 60, 206);" class="btn btn-secondary" type="button" id="submit-button">Às compras!</button>
                 </div>
-                <div class="form-floating">
-                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                    <label for="floatingPassword">Password</label>
-                </div>
-            
-                <div class="checkbox mb-3">
-                    <label>
-                        <input type="checkbox" value="remember-me"> Remember me
-                    </label>
-                </div>
-                <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+              </div>
             </form>
-        </main>    
-    </body>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="/view/css/coming-soon.min.css"></script>
+
+</body>
+
 </html>
